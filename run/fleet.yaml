@@ -3,4 +3,4 @@ helm:
   releaseName: test
   values:
     service:
-      name: 'x-k8s-${{ .ClusterLabels.namecluster }}-save-s3'
+      name: "x-k8s-${{ .ClusterLabels.namecluster }}-save-s3"
