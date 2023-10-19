@@ -3,4 +3,4 @@ helm:
   releaseName: test
   values:
     service:
-      name: 'x-k8s-${ .global.fleet.clusterLabels.namecluster}-save-s3'
+      name: x-k8s-'${ .global.fleet.clusterLabels.namecluster}'-save-s3'
