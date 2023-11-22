@@ -1,4 +1,10 @@
 defaultNamespace: test-ef
+namespaceLabels:
+  foo: barLabel
+  pod-security.kubernetes.io/enforce: restricted
+  pod-security.kubernetes.io/enforce-version: latest
+namespaceAnnotations:
+  foo: barAnnotation
 helm:
   releaseName: test
   values:
